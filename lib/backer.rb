@@ -4,7 +4,8 @@ def Backer
   
   @@backed_projects = []
   
-  def initialize(backed_projects)
+  def initialize(name,backed_projects)
+    @name = name
     @backed_projects = backed_projects
     @@backed_projects << self
   end
