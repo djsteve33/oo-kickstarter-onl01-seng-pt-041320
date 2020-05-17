@@ -1,3 +1,3 @@
 def Project
-  :attr_reader
+  attr_reader :title, :backers
 end  
