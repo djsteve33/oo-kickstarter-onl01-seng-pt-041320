@@ -1,5 +1,7 @@
 def Project
   attr_reader :title, :backers
   
-  def initilaize()
+  def initilaize(title)
+    @backers = []
+  end
 end  
